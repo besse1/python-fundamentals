@@ -10,5 +10,5 @@ def uppercase(str):
             result += i
     return result
         
-print(uppercase ('Oll'))
+print(uppercase ('alL'))
 
