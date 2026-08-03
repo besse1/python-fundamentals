@@ -5,5 +5,5 @@ while True:
     for i in range (a):
         for j in range (b):
             if i < j:
-                print(f"{i}{j}")
+                print(f"{i}{j}", end='')
     break

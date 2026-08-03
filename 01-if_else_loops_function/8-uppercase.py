@@ -1,9 +1,14 @@
 #!/usr/bin/python3
 def uppercase(str):
-    if ord (str)  >=97 and ord (str) <=122:
-        k = ord(str) -32
-        return chr(k)
-    else :
-        return str
-print(uppercase ('a'))
+
+    result = ""
+    for i in str:
+        if ord (i)  >=97 and ord (i) <=122:
+            k = ord(i) -32
+            result += chr(k)
+        else:
+            result += i
+    return result
+        
+print(uppercase ('Oll'))
 
