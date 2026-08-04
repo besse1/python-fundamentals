@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-a = 10
-b = 10
-    
-for i in range (a):
-    for j in range (b):
-        if i == 9 and j == 9:
-        print (f"{i}{j},", end='')
+for i in range (0 , 100):
+    #for j in range (b):
+    print (f"{i:02d}{', ' if i < 99 else ''}", end="")
